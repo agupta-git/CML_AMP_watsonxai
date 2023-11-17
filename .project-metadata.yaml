@@ -1,0 +1,41 @@
+name: Text Extraction using IBM Watsonx.ai
+description: |
+  TODO
+author: Cloudera Inc.
+specification_version: 1.0
+prototype_version: 1.0
+date: "2023-11-17"
+
+environment_variables:
+  IBM_API_KEY:
+    default: "ibm_api_key"
+    description: >-
+      IBM API Key
+  IBM_PROJECT_ID:
+    default: "ibm_project_id"
+    description: >-
+      IBM Project ID
+
+runtimes:
+  - editor: PBJ Workbench
+    kernel: Python 3.9
+    edition: Standard
+
+tasks:
+  - type: run_session
+    name: Install Dependencies
+    script: deps/setup.py
+    short_summary: Install Dependencies
+    kernel: python3
+    cpu: 2
+    memory: 4
+
+  - type: start_application
+    name: Text Extraction using IBM Watsonx.ai
+    subdomain: cml-task
+    script: app/watsonx_app.py
+    long_summary: Launching Application and UI.
+    cpu: 2
+    memory: 8
+    environment_variables:
+      TASK_TYPE: START_APPLICATION
