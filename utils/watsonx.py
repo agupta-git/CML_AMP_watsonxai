@@ -21,10 +21,10 @@ def get_watsonxai_response (
     model_id = ModelTypes.GRANITE_13B_INSTRUCT,
     params = generate_params,
     credentials = {
-      "apikey": "aoopT5yVxVAu6YCkRXqM3ubDXM3HzJh2lDvzDuaR2VqG",
-      "url": "https://us-south.ml.cloud.ibm.com"
+      "apikey": os.environ.get("IBM_API_KEY"), # "aoopT5yVxVAu6YCkRXqM3ubDXM3HzJh2lDvzDuaR2VqG",
+      "url": "https://us-south.ml.cloud.ibm.com" # TODO: parameterize?
     },
-    project_id="0ead8ec4-d137-4f9c-8956-50b0da4a7068"
+    project_id=os.environ.get("IBM_PROJECT_ID") # "0ead8ec4-d137-4f9c-8956-50b0da4a7068"
   )
 
   # model invocation
