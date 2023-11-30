@@ -1,2 +1,2 @@
 ibm-watson-machine-learning
-gradio
+gradio==3.44.4
