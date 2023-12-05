@@ -34,7 +34,7 @@ tasks:
     name: IBM watsonx.ai - Text Summarization using Granite model
     subdomain: cml-task
     script: app/watsonx_app.py
-    long_summary: Launching Application and UI.
+    long_summary: Launching Application.
     cpu: 2
     memory: 8
     environment_variables:

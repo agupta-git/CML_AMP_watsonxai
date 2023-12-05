@@ -1,2 +1,2 @@
-ibm-watson-machine-learning
+ibm-watson-machine-learning==1.0.330
 gradio==3.44.4

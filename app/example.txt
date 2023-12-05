@@ -1,43 +1,16 @@
-You are an insurance claim analyst. Read the following request letter from an insurance customer and generate a summary including what is provided by the customer as justification for the insurance company to pay the request. Include the provider name and any other relevant facts in the summary. Do not make a statement about what the insurance company will do in the summary.
+Please provide a summary of the following text. Do not add any information that is not mentioned in the text below.
 
 Input:
-Insurance Claim Letter for Reimbursement
-From: __Susan Brown_________
-Sender's Name
-____4030 Summer Street____________
-_________________________________
-Sender's Address
-____Los Angeles, CA 90045_________
-City, State, ZIP Code
-____sbrn1234@gmail.com_________
-Sender's email
-To:____UltraCo Insurance________
-Recipient's Name
-_______2093 Lakewood Drive______
-_________________________________
-Recipient's Address
-______Sayreville, NJ 08872________
-City, State, ZIP Code
-____September 21, 2023_____________
-Date
-To Whom It May Concern,
-My name is __Susan Brown_______ and I have an active medical insurance policy with
-your company. The policy number is _2218_______. I am writing this letter to
-claim reimbursement for $79.20 for a custom crown provided by Smiley Boutique,
-who is an in-network provider for UltraCo Insurance.
-Enclosed with this letter are the following supporting documents for your reference and
-review:
-I am including the previous EOB that UltraCo says under the SpecialDentalPlus plan
-that Smiley Boutique is not a network provider. I am also including a copy of the
-UltraCo website page that lists Smiley Boutique as an in-network provider.
-According to section __15.2__ of the policy, I am entitled to __80__% reimbursement.
-Kindly acknowledge the receiving of this claim and advise whether I have to fill some
-form or whether you require other documents to complete the claim request.
-Looking forward to your response and cooperation.
-Sincerely,
-__Susan Brown_______________
-Sender's Name
-__Susan Brown__________________
-Sender's Signature
+A forest is an area of land dominated by trees. Hundreds of definitions of forest are used throughout the world, incorporating factors such as tree density, tree height, land use, legal standing, and ecological function. The United Nations' Food and Agriculture Organization (FAO) defines a forest as, "Land spanning more than 0.5 hectares with trees higher than 5 meters and a canopy cover of more than 10 percent, or trees able to reach these thresholds in situ. It does not include land that is predominantly under agricultural or urban use." Using this definition, Global Forest Resources Assessment 2020 (FRA 2020) found that forests covered 4.06 billion hectares (10.0 billion acres; 40.6 million square kilometres; 15.7 million square miles), or approximately 31 percent of the world's land area in 2020.
+
+Forests are the largest terrestrial ecosystem of Earth by area, and are found around the globe. 45 percent of forest land is in the tropical latitudes. The next largest share of forests are found in subarctic climates, followed by temperate, and subtropical zones.
+
+Forests account for 75% of the gross primary production of the Earth's biosphere, and contain 80% of the Earth's plant biomass. Net primary production is estimated at 21.9 gigatonnes of biomass per year for tropical forests, 8.1 for temperate forests, and 2.6 for boreal forests.
+
+Forests form distinctly different biomes at different latitudes and elevations, and with different precipitation and evapotranspiration rates. These biomes include boreal forests in subarctic climates, tropical moist forests and tropical dry forests around the Equator, and temperate forests at the middle latitudes. Forests form in areas of the Earth with high rainfall, while drier conditions produce a transition to savanna. However, in areas with intermediate rainfall levels, forest transitions to savanna rapidly when the percentage of land that is covered by trees drops below 40 to 45 percent. Research conducted in the Amazon rainforest shows that trees can alter rainfall rates across a region, releasing water from their leaves in anticipation of seasonal rains to trigger the wet season early. Because of this, seasonal rainfall in the Amazon begins 2 to 3 months earlier than the climate would otherwise allow. Deforestation in the Amazon and anthropogenic climate change hold the potential to interfere with this process, causing the forest to pass a threshold where it transitions into savanna.
+
+Deforestation threatens many forest ecosystems. Deforestation occurs when humans remove trees from a forested area by cutting or burning, either to harvest timber or to make way for farming. Most deforestation today occurs in tropical forests. The vast majority of this deforestation is because of the production of four commodities: wood, beef, soy, and palm oil. Over the past 2,000 years, the area of land covered by forest in Europe has been reduced from 80% to 34%. Large areas of forest have also been cleared in China and in the eastern United States, in which only 0.1% of land was left undisturbed. Almost half of Earth's forest area (49 percent) is relatively intact, while 9 percent is found in fragments with little or no connectivity. Tropical rainforests and boreal coniferous forests are the least fragmented, whereas subtropical dry forests and temperate oceanic forests are among the most fragmented. Roughly 80 percent of the world's forest area is found in patches larger than 1 million hectares (2.5 million acres). The remaining 20 percent is located in more than 34 million patches around the world – the vast majority less than 1,000 hectares (2,500 acres) in size.
+
+Human society and forests can affect one another positively or negatively. Forests provide ecosystem services to humans and serve as tourist attractions. Forests can also affect people's health. Human activities, including unsustainable use of forest resources, can negatively affect forest ecosystems.
 
 Output:
