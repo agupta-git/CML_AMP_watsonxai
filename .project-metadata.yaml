@@ -7,6 +7,10 @@ prototype_version: 1.0
 date: "2023-12-01"
 
 environment_variables:
+  IBM_WATSONXAI_ENDPOINT:
+    default: "ibm_watsonxai_endpoint"
+    description: >-
+      IBM watsonx.ai Endpoint
   IBM_API_KEY:
     default: "ibm_api_key"
     description: >-
