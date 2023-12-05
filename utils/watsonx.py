@@ -25,15 +25,25 @@ def get_watsonxai_response (
     elif modelId == "meta-llama/llama-2-70b-chat":
         model_id_str = ModelTypes.LLAMA_2_70B_CHAT
 
+    # capture environment variables
+    env_ibm_api_key = os.environ.get("IBM_API_KEY")
+    env_ibm_watsonxai_endpoint = os.environ.get("IBM_WATSONXAI_ENDPOINT")
+    env_ibm_project_id = os.environ.get("IBM_PROJECT_ID")
+    print("Environment Variables:"
+            + "\nIBM_API_KEY: " + env_ibm_api_key
+            + "\nIBM_WATSONXAI_ENDPOINT: " + env_ibm_watsonxai_endpoint
+            + "\nIBM_PROJECT_ID: " + env_ibm_project_id
+    )
+
     # prepare model input
     model = Model(
         model_id = model_id_str,
         params = generate_params,
         credentials = {
-            "apikey": "aoopT5yVxVAu6YCkRXqM3ubDXM3HzJh2lDvzDuaR2VqG",
-            "url": "https://us-south.ml.cloud.ibm.com"
+            "apikey": env_ibm_api_key,
+            "url": env_ibm_watsonxai_endpoint
         },
-        project_id = "0ead8ec4-d137-4f9c-8956-50b0da4a7068"
+        project_id = env_ibm_project_id
     )
 
     # model invocation
@@ -48,4 +58,3 @@ model_choice = "ibm/granite-13b-chat-v1" # options: ibm/granite-13b-chat-v1, met
 custom_instruction = "Please provide a summary of the following text. Do not add any information that is not mentioned in the text below."
 input_text = "A large language model (LLM) is a type of language model notable for its ability to achieve general-purpose language understanding and generation. LLMs acquire these abilities by using massive amounts of data to learn billions of parameters during training and consuming large computational resources during their training and operation. LLMs are artificial neural networks (mainly transformers) and are (pre-)trained using self-supervised learning and semi-supervised learning.\n As autoregressive language models, they work by taking an input text and repeatedly predicting the next token or word. Up to 2020, fine tuning was the only way a model could be adapted to be able to accomplish specific tasks. Larger sized models, such as GPT-3, however, can be prompt-engineered to achieve similar results. They are thought to acquire embodied knowledge about syntax, semantics and ontology inherent in human language corpora, but also inaccuracies and biases present in the corpora. \n Notable examples include OpenAI's GPT models (e.g., GPT-3.5 and GPT-4, used in ChatGPT), Google's PaLM (used in Bard), and Meta's LLaMa, as well as BLOOM, Ernie 3.0 Titan, and Anthropic's Claude 2."
 get_watsonxai_response(model_choice, input_text, custom_instruction, 512, 0.7, 1)
-print("testccc " + os.environ.get("IBM_API_KEY"))
