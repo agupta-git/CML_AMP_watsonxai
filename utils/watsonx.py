@@ -10,9 +10,9 @@ def get_watsonxai_response (
     # print params
     print("Params:"
             + "\nmodelId: " + modelId
-            + "\nmax_new_tokens: " + max_new_tokens
-            + "\ntemperature: " + temperature
-            + "\ntop_p: " + top_p
+            + "\nmax_new_tokens: " + str(max_new_tokens)
+            + "\ntemperature: " + str(temperature)
+            + "\ntop_p: " + str(top_p)
     )
 
     # model params
