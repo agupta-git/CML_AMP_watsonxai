@@ -75,12 +75,10 @@ with gr.Blocks() as demo:
 # end app design
 
 # launch app
-'''
 demo.launch(server_port=int(os.getenv('CDSW_APP_PORT')),
            enable_queue=True,
            show_error=True,
            server_name='127.0.0.1',
+           share=True
 )
-'''
-demo.launch(share=True)
 # end app

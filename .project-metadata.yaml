@@ -1,4 +1,4 @@
-name: IBM watsonx.ai - Text Summarization using Granite model
+name: IBM watsonx.ai - Text Summarization
 description: |
   This AMP demonstrates an application which uses IBM watsonx.ai model for LLM inference with a summarization usecase.
 author: Cloudera Inc.
