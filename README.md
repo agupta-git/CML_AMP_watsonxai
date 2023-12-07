@@ -22,6 +22,6 @@ This AMP provides two model choices - ibm/granite-13b-chat-v1 and meta-llama/lla
    - IBM_PROJECT_ID - _Id of the IBM project that you have access to_
 - ML Runtime - PBJ Workbench, Python 3.9, Standard Edition and 2023.08 Version
 - Launch the project. It takes about 3 minutes to execute the two steps. Once they are done, open the application.
-- Click on the `Forest` example to load sample text in the input text area.
+- Click on the `Forest` example to load sample text in the input text area and `Summarize` to see response from the selected model.
 
 Enjoy!
