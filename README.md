@@ -11,7 +11,7 @@ This AMP provides two model choices - ibm/granite-13b-chat-v1 and meta-llama/lla
 ## AMP Prerequisites
 - Access to CML [workspace](https://docs.cloudera.com/machine-learning/cloud/workspaces/topics/ml-provision-workspaces.html).
 - [IBM Cloud account](https://www.ibm.com/cloud).
-- Using your IBM cloud account, create API Key [here](https://cloud.ibm.com/iam/apikeys).
+- In IBM cloud account, create API Key [here](https://cloud.ibm.com/iam/apikeys).
 - Access to IBM Project. This is where foundation models are hosted.
  
  ## AMP Setup
