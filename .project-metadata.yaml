@@ -1,6 +1,6 @@
 name: IBM watsonx.ai - Text Summarization
 description: |
-  This AMP demonstrates an application which uses IBM watsonx.ai model for LLM inference with a summarization usecase.
+  This AMP demonstrates how to use watson machine learning Python SDK to call watsonx.ai models from CML workspace. In this AMP, text summarization based on custom instruction is used as an example but these foundation models are capable of much more such as question-answering, classification, extraction and so on.
 author: Cloudera Inc.
 specification_version: 1.0
 prototype_version: 1.0
@@ -35,7 +35,7 @@ tasks:
     memory: 4
 
   - type: start_application
-    name: IBM watsonx.ai - Text Summarization using Granite model
+    name: IBM watsonx.ai - Text Summarization
     subdomain: cml-task
     script: app/watsonx_app.py
     long_summary: Launching Application.
