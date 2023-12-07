@@ -17,9 +17,9 @@ This AMP provides two model choices - ibm/granite-13b-chat-v1 and meta-llama/lla
  ## AMP Setup
  - Create a new CML project using AMPs setup option and provide `https://github.com/agupta-git/CML_AMP_watsonxai` GIT URL.
  - Provide values for required environment variables:
-   - IBM_WATSONXAI_ENDPOINT - this looks like `https://us-south.ml.cloud.ibm.com`
-   - IBM_API_KEY - value of API Key you created in your IBM cloud account
-   - IBM_PROJECT_ID - id of the IBM project that you have access to.
+   - IBM_WATSONXAI_ENDPOINT - _this looks like `https://us-south.ml.cloud.ibm.com`_
+   - IBM_API_KEY - _value of API Key you created in your IBM cloud account_
+   - IBM_PROJECT_ID - _Id of the IBM project that you have access to_
 - ML Runtime - PBJ Workbench, Python 3.9, Standard Edition and 2023.08 Version
 - Launch the project. It takes about 3 minutes to execute the two steps. Once they are done, open the application.
 - Click on the `Forest` example to load sample text in the input text area.
