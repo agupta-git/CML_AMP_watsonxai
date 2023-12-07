@@ -4,3 +4,15 @@ IBM watsonx AI offers generative AI capabilities powered by foundation models an
 This repository demonstrates how to use [watson machine learning](https://ibm.github.io/watson-machine-learning-sdk/) Python SDK to call watsonx.ai models from Cloudera Machine Learning (CML) workspace. In this [Applied ML Prototype (AMP)](https://docs.cloudera.com/machine-learning/cloud/applied-ml-prototypes/topics/ml-amps-overview.html), text summarization based on custom instruction is used as an example but these foundation models are capable of much more such as question-answering, classification, extraction and so on.
 
 ## AMP Overview
+This AMP provides two model choices - ibm/granite-13b-chat-v1 and meta-llama/llama-2-70b-chat, along with text areas to provide custom instruction & input text and the ability to modify parameters for advanced generation.
+
+![image](/assets/app_interface.png)
+
+## AMP Prerequisites
+- Access to CML [workspace](https://docs.cloudera.com/machine-learning/cloud/workspaces/topics/ml-provision-workspaces.html).
+- [IBM Cloud account](https://www.ibm.com/cloud).
+- Using your IBM cloud account, create API Key [here](https://cloud.ibm.com/iam/apikeys).
+- Access to IBM Project. This is where foundation models are hosted.
+ 
+ ## AMP Setup
+ - Create a new CML project using AMPs setup option and provide `https://github.com/agupta-git/CML_AMP_watsonxai` GIT URL.
