@@ -46,7 +46,7 @@ with gr.Blocks() as demo:
         # options and actions column
         with gr.Column(scale=3):
             with gr.Accordion("Advanced Generation Options", open=False):
-                max_new_tokens = gr.Slider(minimum=0, maximum=4096, step=1, value=512, label="Max Tokens")
+                max_new_tokens = gr.Slider(minimum=0, maximum=2048, step=1, value=512, label="Max Tokens")
                 temperature = gr.Slider(minimum=0.01, maximum=2.0, step=0.01, value=0.7, label="Temperature")
                 top_p = gr.Slider(minimum=0, maximum=1.0, step=0.01, value=1.0, label="Top P")
             summarize_btn = gr.Button("Summarize", variant='primary')
